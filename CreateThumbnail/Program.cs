@@ -34,7 +34,6 @@ public static class Program
             {
                 services.AddScoped<ThumbnailServiceImpl>();
                 services.AddScoped<IWebThumbnailManager, WebThumbnailManager>();
-                services.AddScoped<ICefSharpHelper, CefSharpHelper>();
                 services.AddHostedService<Worker>();
                 services.AddLogging(config =>
                 {
