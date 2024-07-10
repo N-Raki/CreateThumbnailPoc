@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateThumbnail", "CreateThumbnail\CreateThumbnail.csproj", "{42B650BC-17FB-4312-B0C6-9B3E10D324B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice", "BackOffice\BackOffice.csproj", "{DDC40657-4C60-451A-BEDE-BF7EEF6BEBAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42B650BC-17FB-4312-B0C6-9B3E10D324B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B650BC-17FB-4312-B0C6-9B3E10D324B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B650BC-17FB-4312-B0C6-9B3E10D324B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B650BC-17FB-4312-B0C6-9B3E10D324B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC40657-4C60-451A-BEDE-BF7EEF6BEBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC40657-4C60-451A-BEDE-BF7EEF6BEBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC40657-4C60-451A-BEDE-BF7EEF6BEBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC40657-4C60-451A-BEDE-BF7EEF6BEBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

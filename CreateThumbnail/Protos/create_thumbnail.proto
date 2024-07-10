@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "CreateThumbnailService";
+
+service ThumbnailService {
+  rpc CreateThumbnail (ThumbnailRequest) returns (ThumbnailResponse);
+}
+
+message ThumbnailRequest {
+  int32 mediaId = 1;
+}
+
+message ThumbnailResponse {
+  bytes thumbnail = 1;
+}
